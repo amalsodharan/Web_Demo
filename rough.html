@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/logo2.png">
+    <script src="rough.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="javascript:void(0)">
+        <img src="images/logo.png" alt="" style="max-height: 60px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mynavbar" onclick="signvisible()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-top bg-light h-100"  id="mynavbar">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close" onclick="signdis()"></button>
+        </div>
+        <div class="offcanvas-body d-flex justify-content-center">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#myModal" id="signDum" style="display: none;">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#myModal2" id="logDum" style="display: none;">Login</a>
+                </li>
+            </ul>
+            <form class="frm">
+                <button class="but" type="button" data-bs-toggle="modal" data-bs-target="#myModal" id="sign">Sign Up</button>&nbsp;
+                <button class="but" type="button" data-bs-toggle="modal" data-bs-target="#myModal2" id="log">Login</button>
+            </form>  
+        </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+    <div class="content">
+        <img src="images/download.jpeg" alt="">
+        <div class="content-top">
+            <div class="space"></div>
+            <div class="content-top-inner">
+                <h1>We Always <br>Provide Best Services</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button class="btn btn-dark">Get Started</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="space2"></div>
+
+    <div class="content-2">
+        <div class="content-2-header">
+            <h1>Are you looking for</h1>
+            <p class="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt,<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="space3"></div>
+        <div class="content-2-footer">
+                <div class="card">
+                    <div class="card-header" style="display: flex;">
+                        <span class="material-symbols-outlined" style="margin-top: 5px;">
+                            key
+                        </span>
+                        <h3 style="margin-left: 30px;">Lorem ipsum</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div> 
+                  </div>&nbsp;
+                  <div class="card">
+                    <div class="card-header" style="display: flex;">
+                        <span class="material-symbols-outlined" style="margin-top: 5px;">
+                            create_new_folder
+                        </span>
+                        <h3 style="margin-left: 30px;">Lorem ipsum</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div> 
+                  </div>&nbsp;
+                  <div class="card">
+                    <div class="card-header" style="display: flex;">
+                        <span class="material-symbols-outlined" style="margin-top: 5px;">
+                            swipe_vertical
+                        </span>
+                        <h3 style="margin-left: 30px;">Lorem ipsum</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div> 
+                  </div>&nbsp;
+        </div>
+    </div>
+
+    <div class="space"></div>
+
+    <div class="content-3">
+        <div class="image-side">
+            <img src="images/back.jpeg" alt="">
+        </div><div class="raw-space"></div>
+        <div class="text-side">
+            <h3>WHAT DO WE DO?</h3>
+            <h5>PROVIDES QUALITY CUSTOM SOFTWARE DEVELOPMENT SERVICE</h5><hr>
+            <p>As a visionary firm that is focused on application development on cutting edge modern technologies, Rifluxyss invests largely on its manpower resources to keep up with the fast changes evolving in the information industry. Innovative development methodologies and client centric software development processes enable us to deliver cost effective but powerful solutions to automate complex business problems.</p>
+        </div>
+    </div>
+
+    <div class="space"></div>
+
+    <div class="content-3">
+        <div class="text-side">
+            <h3>WHAT DO WE DO?</h3>
+            <h5>PROVIDES QUALITY CUSTOM SOFTWARE DEVELOPMENT SERVICE</h5><hr>
+            <p>As a visionary firm that is focused on application development on cutting edge modern technologies, Rifluxyss invests largely on its manpower resources to keep up with the fast changes evolving in the information industry. Innovative development methodologies and client centric software development processes enable us to deliver cost effective but powerful solutions to automate complex business problems.</p>
+        </div><div class="raw-space2"></div>
+        <div class="image-side-2">
+            <img src="images/back5.jpeg" alt="">
+        </div>
+    </div>
+
+    <div class="space"></div>
+
+    <div class="content-3">
+        <div class="image-side">
+            <img src="images/back2.jpeg" alt="">
+        </div><div class="raw-space"></div>
+        <div class="text-side">
+            <h3>WHAT DO WE DO?</h3>
+            <h5>PROVIDES QUALITY CUSTOM SOFTWARE DEVELOPMENT SERVICE</h5><hr>
+            <p>As a visionary firm that is focused on application development on cutting edge modern technologies, Rifluxyss invests largely on its manpower resources to keep up with the fast changes evolving in the information industry. Innovative development methodologies and client centric software development processes enable us to deliver cost effective but powerful solutions to automate complex business problems.</p>
+        </div>
+    </div>
+
+    <div class="space4"></div>
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/c1.jpeg" alt="Los Angeles" class="d-inline" id="c1">
+            <img src="images/c2.jpeg" alt="Chicago" class="d-inline" id="c2">
+            <img src="images/c3.jpeg" alt="Chicago" class="d-inline" id="c3">
+          </div>
+          <div class="carousel-item">
+            <img src="images/c4.jpeg" alt="Los Angeles" class="d-inline" id="c4">
+            <img src="images/c5.jpeg" alt="Chicago" class="d-inline" id="c5">
+            <img src="images/c6.jpeg" alt="Chicago" class="d-inline" id="c6">
+          </div>
+          <div class="carousel-item">
+            <img src="images/c7.jpeg" alt="Los Angeles" class="d-inline" id="c7">
+            <img src="images/c8.jpeg" alt="Chicago" class="d-inline" id="c8">
+            <img src="images/c9.jpeg" alt="Chicago" class="d-inline" id="c9">
+          </div>
+        </div>
+        
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+
+      <div class="space"></div>
+
+      <div class="content-4">
+        <div class="space3"></div>
+        <div class="content-4-inner">
+            <h1>Contact</h1><hr>
+            <div class="content-4-p">
+                <p>As a visionary firm that is focused on application development on cutting edge modern technologies, Rifluxyss invests largely on its manpower resources to keep up with the fast changes evolving in the information industry. Innovative development methodologies and client centric software development processes enable us to deliver cost effective but powerful solutions to automate complex business problems.As a visionary firm that is focused on application development on cutting edge modern technologies, Rifluxyss invests largely on its manpower resources to keep up with the fast changes evolving in the information industry. Innovative development methodologies and client centric software development processes enable us to deliver cost effective but powerful solutions to automate complex business problems. </p>
+            </div><hr>
+            <div class="content-4-but">
+                <button class="but2" data-bs-toggle="modal" data-bs-target="#myModal2">Login</button>
+            </div>
+        </div>
+        <div class="space3"></div>
+      </div>
+
+      <div class="space"></div>
+
+      
+
+</div>
+
+<nav class="navbar navbar-expand-sm navbar-light" id="footerNav">
+    <div class="container-fluid">
+        <div class="container">
+        <div class="footer">
+            <div class="footer-1">
+                <h3>News Letter</h3><hr>
+                <p class="footerP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt,<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>&nbsp;&nbsp;
+            <div class="footer-1">
+                <h3>Recent Projects</h3><hr>
+                <div class="align">
+                    <div class="box"></div>
+                    <p>Sketchy Bussines card <br>
+                    <a href="http://www.rifluxyss.com/">http://www.rifluxyss.com/</a><br>
+                    2 weeks ago</p>
+                </div><hr>
+                <div class="align">
+                    <div class="box"></div>
+                    <p>Message Boards in nature <br>
+                    <a href="http://www.rifluxyss.com/">http://www.rifluxyss.com/</a><br>
+                    2 weeks ago</p>
+                </div>
+            </div>&nbsp;&nbsp;
+            <div class="footer-1">
+                <h3>Contact</h3><hr>
+                <div class="align">
+                    <span class="material-symbols-outlined">
+                        call
+                    </span>
+                    <p>1-000-000-0000 <br>
+                    1-000-000-0000</p>
+                </div>
+                <div class="align"> 
+                    <span class="material-symbols-outlined">
+                        chat
+                    </span>
+                    <p>1-000-000-0000 <br>
+                    1-000-000-0000</p>
+                </div>
+                <div class="align">
+                    <span class="material-symbols-outlined">
+                        mail
+                    </span>
+                    <p>testmail@gmail.co <br>
+                    testemaple@yahoo.com</p>
+                </div>   
+        </div>
+    </div>
+    </div>
+</nav>
+
+<!-- sign up with modal -->
+
+<div class="modal fade" id="myModal" data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h3 class="modal-title">New User</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form id="myForm" name="loginForm" onsubmit="f2()">
+            <div class="mb-2">
+                <div class="row">
+                    <div class="col">
+                        <label>First Name:</label>
+                        <input type="text" name="f-name" id="fname" class="form-control" placeholder="Enter first name">
+                        <span id="demo1"></span>
+                    </div>
+                    <div class="col">
+                        <label>Last Name:</label>
+                        <input type="text" name="l-name" id="lname" class="form-control" placeholder="Enter last name">
+                        <span id="demo2"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-2">
+                <label>Email:</label>
+                <input type="text" name="e-mail" id="email" class="form-control" placeholder="Enter email">
+                <span id="demo3"></span>
+            </div>
+            <div class="mb-2">
+                <label>Phone Number:</label>
+                <input type="text" name="Phone1" id="phone" class="form-control" placeholder="Enter Phone Number" maxlength="10" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')">
+                <span id="demo4"></span>
+            </div>
+            <div class="mb-2">
+                <label>Date of Birth:</label>
+                <input type="date" name="d-ob" id="dob" class="form-control">
+                <span id="demo5"></span>
+            </div>
+            <div class="mb-2">
+                <label>Gender:</label>
+                <input type="radio" class="form-check-input" value="Male" name="gender" id="g1">
+                <label class="form-check-label">Male</label>
+                <input type="radio" class="form-check-input" value="Female" name="gender" id="g2">
+                <label class="form-check-label">Female</label>
+                <input type="radio" class="form-check-input" value="Other" name="gender" id="g3">
+                <label class="form-check-label">Other</label>
+            </div>
+            <span id="demo6"></span>
+            <div class="mb-2">
+                <label>Address:</label>
+                <textarea class="form-control" name="Address" id="address" rows="1" placeholder="Enter your Address"></textarea>
+                <span id="demo7"></span>
+            </div>
+            <div class="mb-2">
+                <label>Hobbies:</label>
+                <select id="hobbies" name="Hobbies" class="form-select" multiple>
+                    <option value="Painting">Painting</option>
+                    <option value="Drawing">Drawing</option>
+                    <option value="Reading">Reading</option>
+                    <option value="Blogging">Blogging</option>
+                    <option value="Shopping">Shopping</option>
+                    <option value="Music">Music</option>
+                    <option value="Photography">Photography</option>
+                    <option value="Other">Other</option>
+                  </select>
+                  <span id="demo8"></span>
+            </div>
+            <div class="mb-3">
+                <div class="row">
+                    <div class="col">
+                        <label>Enter Password:</label>
+                        <input type="password" name="Password" id="password" class="form-control" placeholder="Enter password">
+                        <span id="demo9"></span>
+                    </div>
+                    <div class="col">
+                        <label>Re-enter Password:</label>
+                        <input type="password" name="re-pass" id="repass" class="form-control" placeholder="Re-enter passowrd">
+                        <span id="demo10"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-2">
+                <input class="form-check-input" type="checkbox" name="d-Check" id="dcheck">
+                <label>I hereby declare that the above made statements are true.</label>
+                <span id="demo11"></span>
+            </div>
+            <div class="mt-3">
+                <a href="" data-bs-toggle="modal" data-bs-target="#myModal2">
+                <label class="form-check-label">
+                    Already have an account?
+                </label></a>
+            </div>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+            <input type="submit" class="btn btn-danger" value="Submit" onclick="display()">
+        </form>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+<!-- login with modal -->
+
+<div class="modal fade" id="myModal2" data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h3 class="modal-title">Login</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+            <form id="logForm" name="logform">
+            <div class="mb-3">
+                <label>Email:</label>
+                <input type="text" id="emaillog" name="emailLog" class="form-control" placeholder="Enter email">
+                <span id="lemo1"></span>
+            </div>
+            <div class="mb-3">
+                <label>Password:</label>
+                <input type="password" id="passlog" name="passLog" class="form-control" placeholder="Enter Password">
+                <span id="lemo2"></span>
+            </div>
+            <div class="mb-3">
+                <div class="align">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#myModal" style="width: 70%;">
+                    <label class="form-check-label">
+                        New User?
+                    </label></a>
+                    <a href="#">
+                    <label class="form-check-label" id="newlabel">
+                        Forget passowrd?
+                    </label></a>
+                </div>
+            </div>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+            <input type="submit" class="btn btn-danger" value="Submit" onclick="logdisplay()">
+        </form>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+</body>
+</html>
